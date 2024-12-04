@@ -8,7 +8,7 @@ conn = st.button('connect')
 if conn:
     chat_object.vectorize()
 
-st.title(":blue[Talk to Database]")
+st.title(":blue[Customer Churn Database]")
 col1, col2, col3 = st.columns(3)
 with col3:
     st.subheader("powered by GenAI")
@@ -27,7 +27,7 @@ for message in st.session_state.messages:
             st.dataframe(message["content"],hide_index=True)
 
 # React to user input
-if prompt := st.chat_input("What is up?"):
+if prompt := st.chat_input("What is your question?"):
     # Display user message in chat message container
     with st.chat_message("user"):
         st.markdown(prompt)
