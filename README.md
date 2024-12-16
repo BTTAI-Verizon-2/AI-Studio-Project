@@ -11,7 +11,6 @@
 **Technologies** - Python, NumPy, Pandas, Matplotlib, Scikit-Learn, TensorFlow, OpenAI API, ChromaDB, HuggingFace, SQLite, Streamlit, Github, Google Drive (Colab, Docs, Slides)
 
 ## Chatbot Instructions
-
 1. Open terminal and make sure you are in the repo directory
 2. Use command `pip install -r requirements.txt`
 3. Use command `streamlit run gui.py`
@@ -44,3 +43,6 @@
 - List of team members, advisors, supporters; also libraries or third-party services used in the project.
 
 -->
+
+### License
+This project is released under Apache License 2.0.
