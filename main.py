@@ -79,7 +79,7 @@ class datachat():
         # from langchain.chat_models import ChatOpenAI
         llm = ChatOpenAI(
             model_name="gpt-4o-mini",  # or "gpt-4"
-            openai_api_key="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",
+            openai_api_key="open_ai_key_here",
             temperature=0.0,
             max_tokens=4000
         )
